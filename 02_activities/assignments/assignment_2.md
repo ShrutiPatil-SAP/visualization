@@ -13,7 +13,7 @@
       Your answer...
 
 
-Good Visualization Example 
+Good Visualization Example: 
 COVID-19 Vaccine Data Dashboard (link: https://public.tableau.com/app/profile/idaho.division.of.public.health/viz/COVID-19VaccineDataDashboard/LandingPage)
 
 The COVID-19 Vaccine Data Dashboard, created by Idaho’s Division of Public Health, is an excellent example of effective data visualization. It presents detailed insights into vaccine distribution, dose administration, and regional vaccination rates.
