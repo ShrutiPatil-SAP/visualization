@@ -6,24 +6,75 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
-    > What software did you use to create your data visualization?
+- For each visualization, describe and justify:
 
-    > Who is your intended audience? 
+   Visualization 1: COVID-19 Case Trends Over Time
+  Link: https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
+
+  > What software did you use to create your data visualization?
+     Python (matplotlib and seaborn). Python provides flexibility and precision in creating time-series visualizations. Libraries like matplotlib and 
+     seaborn are ideal for detailed trend analysis.
+
+   > Who is your intended audience?
+   Policymakers, health officials, and researchers aiming to monitor infection trends and evaluate intervention effectiveness.
     
     > What information or message are you trying to convey with your visualization? 
-    
-    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Showcase daily and cumulative case trends to highlight peaks and plateaus, assisting in evaluating the progression and control of the pandemic.
+
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots?
+1) Substantive: Focused on essential metrics such as daily cases and 7-day rolling averages.
+2) Perceptual: Smooth curves and clear legends for trend clarity.
+3) Aesthetic: Use of contrasting colors to differentiate trends (e.g., daily vs. cumulative cases).
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    Code is included with comments, and the dataset is publicly accessible. This ensures reproducibility for similar studies.
+   
     > How did you ensure that your data visualization is accessible?  
-    
+     Annotations on peaks and significant events improve comprehension. Colorblind-friendly palettes ensure inclusivity.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    The visualization helps communities globally understand the effectiveness of public health measures and the importance of compliance during spikes.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    Focused on case counts, excluding unrelated fields like administrative codes.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Cleaning data to handle missing dates and calculating rolling averages.
+
+    Visualization 2: Vaccination Rates by Region
+   Link: https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario
+   > What software did you use to create your data visualization?
+   Tableau Public
+   > Who is your intended audience?
+   General public, health planners, and community organizations interested in regional vaccination disparities.
+
+> What information or message are you trying to convey with your visualization?
+   Highlight regional differences in vaccination rates, identifying areas with lower coverage to guide outreach and policy.
+
+> What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots?
+Substantive: Focused on vaccination rates by region and total population.
+Perceptual: Consistent scaling for all regions; clear legend for interpretation.
+Aesthetic: Balanced color gradients (e.g., shades of green) to represent vaccination levels.
+
+> How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+Tableau files and the dataset link will be shared, but Tableau's interactivity is less script-reproducible compared to Python.
+
+> How did you ensure that your data visualization is accessible?
+Tooltips on hover include text descriptions for each region. Contrasting colors ensure readability for colorblind users.
+
+Who are the individuals and communities who might be impacted by your visualization?
+Identifying under-vaccinated areas allows targeted outreach to improve health outcomes.
+
+> How did you choose which features of your chosen dataset to include or exclude from your visualization?
+Focused on regions, vaccination percentages, and population; omitted unrelated fields like administrative regions.
+
+> What ‘underwater labour’ contributed to your final data visualization product?
+Aggregating data by region and ensuring uniform vaccination percentage calculations.
+
+
+
+
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
